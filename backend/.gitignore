@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+env/
+venv/
+ENV/
+venv.bak/
+.virtualenv/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Testing
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff (if applicable)
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff (if applicable)
+instance/
+.webassets-cache
+
+# FastAPI specific
+# Uvicorn logs
+*.log
+*.pid
+
+# Ignore IDE/editor configs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Python virtual environment settings
+pip-log.txt
+pip-delete-this-directory.txt
+
+# mypy cache
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Caches
+.cache/
+.pdm.toml
+.pdm.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Firebase
+firebase.json
